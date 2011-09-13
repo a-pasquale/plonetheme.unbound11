@@ -27,7 +27,7 @@
   <prepend content='//*[@id="portal-personaltools-wrapper"]' theme='//*[@id="container"]' />
   <prepend css:content="#viewlet-above-content" css:theme="#text"/>
   <before css:contentt="#edit-bar" css:theme="#text"/>
-  <copy css:content-children="#content" css:theme="#content"/>
+  <copy css:content-children="#portal-columns" css:theme="#contents"/>
   <after css:content="#viewlet-below-content" css:theme-children="#text"/>
   <copy content-children='//*[@id="portal-column-one"]' theme='//*[@id="sidebar"]' />
   <copy content-children='//*[@id="portal-footer"]' theme='//*[@id="footer"]' />
