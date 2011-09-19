@@ -1,3 +1,6 @@
+/* @override 
+	http://localhost:8080/Plone/++theme++plonetheme.unbound11/unbound.css */
+
 /* ----------------------------------------------
 	Template Name : Unbound
 	Template Code : S-0023
@@ -239,6 +242,8 @@ input.button {
 	margin: 0; padding: 0;		
 	width: 880px;	
 	left: 25px;	top: 0px;	
+	background: transparent;
+	border: none;
 }
 #nav ul {
 	float: left;
@@ -335,6 +340,11 @@ input.button {
 	margin: 0 auto;	
 	text-align: left;
 }
+
+#content {
+	margin-left: 10px;
+	margin-right: 10px;
+}
 #contents {
 	float: left;
 	width: 100%;
@@ -342,6 +352,9 @@ input.button {
   margin: 0;
 }
 
+div#portal-column-content.width-full {
+margin: ;
+}
 .col-one {
 	margin-right: 480px;
 	padding-left: 25px;
