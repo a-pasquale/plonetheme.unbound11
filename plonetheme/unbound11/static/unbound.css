@@ -1,5 +1,6 @@
 /* @override 
-	http://localhost:8080/Plone/++theme++plonetheme.unbound11/unbound.css */
+	http://localhost:8080/Plone/++theme++plonetheme.unbound11/unbound.css
+	http://www.fullparticipation.net/++theme++plonetheme.unbound11/unbound.css */
 
 /* ----------------------------------------------
 	Template Name : Unbound
@@ -15,7 +16,8 @@
 ------------------------------------------------- */ 
 
 /* Top Elements */
-* { margin: 0; padding: 0; outline: 0 }
+* { margin: 0; padding: 0; outline: 0; 
+}
 
 body {
 	font: 11px/165% "Lucida Grande", Geneva, Verdana, Arial, Helvetica, sans-serif;
@@ -32,9 +34,7 @@ a {
 	color: #A56F38; 	
 }
 a:hover {
-	background: #F0f0f0; 
-	color: #000;
-	border-bottom: 1px dotted #000;
+	border-bottom: none;
 }
 
 #content a:link,
@@ -63,7 +63,7 @@ h3 {
 	font-weight: normal;	
 }
 
-p, dl { padding: 10px; margin: 0; }
+p, dl { padding: 0px; margin: 0; }
 
 ul, ol {
 	margin: 10px 20px;
@@ -351,6 +351,8 @@ input.button {
 	width: 100%;
 	background: #fff url(images/content-bg.jpg) no-repeat;		
   margin: 0;
+  position: relative;
+  padding-right: 10px;
 }
 
 div#portal-column-content.width-full {
@@ -601,4 +603,80 @@ p.thumbs{ padding: 12px 0 0 10px; }
 
 #ps_title .ps_tt_l {
 	letter-spacing: normal;
+}
+
+div#viewlet-below-content {
+	width: 80%;
+}
+fieldset,
+.editionComment {
+line-height:1.5em;
+margin:1em 0;
+padding:0 1em 1em;
+width:auto;
+}
+
+div#commenting.reply {
+
+}
+
+div#portal-column-two {
+	margin-top: -50px;
+	position: relative;
+	height: 100%;
+}
+
+div#portal-column-content {
+}
+
+.tweetBody {
+	font: 11px/14px "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+}
+
+.tweetUsername {
+	font-size: 12px;
+}
+
+.tweetDate {
+	font-size: 10px;
+	font-style: italic;
+	padding: 0;
+	text-align: right;
+	color: silver;
+}
+
+.tweetPicture {
+	border: 1px solid silver;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	border-radius: 4px;
+	
+}
+
+dl.portlet {
+	margin-right: 15px;
+	border: 1px solid #eaeaea;
+	padding: 5px;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	border-radius: 4px;
+	background: #f5f5f5;
+	-moz-box-shadow: 0 2px 8px rgba(0, 0, 0, 0.43);
+	-webkit-box-shadow: 0 2px 8px rgba(0, 0, 0, 0.43);
+	box-shadow: 0 2px 8px rgba(0, 0, 0, 0.43);
+}
+
+dl.portlet dd.portletItem {
+	margin: 0;
+	padding-top: 1em;
+	padding-right: 0;
+	padding-left: 0;
+}
+
+dl.portlet dt.portletHeader {
+	background-color: #edddcb;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	border-radius: 4px;
+	
 }
