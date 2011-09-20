@@ -34,5 +34,7 @@
   <append content='//*[@id="portal-colophon"]' theme='//*[@id="footer"]' />
   <drop css:theme=".col-two"/>
   <drop css:theme=".col-three"/>
+   <drop css:content="#portal-breadcrumbs"/>
+  
 
 </rules>

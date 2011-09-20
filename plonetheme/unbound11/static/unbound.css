@@ -1,5 +1,6 @@
 /* @override 
-	http://localhost:8080/Plone/++theme++plonetheme.unbound11/unbound.css */
+	http://localhost:8080/Plone/++theme++plonetheme.unbound11/unbound.css
+	http://64.18.217.181:8906/Plone/++theme++plonetheme.unbound11/unbound.css */
 
 /* ----------------------------------------------
 	Template Name : Unbound
@@ -37,6 +38,11 @@ a:hover {
 	border-bottom: 1px dotted #000;
 }
 
+#content a:link,
+dl.portlet a:link {
+color: #205c90;
+border-bottom: none;
+}
 /* Headers */
 h1, h2, h3 {
 	font: bold 1em/1.5em "Trebuchet MS", Tahoma, Arial, Sans-serif;
@@ -75,11 +81,7 @@ dd {
 }
 
 /* Images */
-img {
-	background: #fafafa;
-    border: 1px solid #dcdcdc;
-	padding: 8px;
-}
+
 img.float-right {
   	margin: 5px 0px 10px 10px;  
 }
@@ -581,6 +583,8 @@ p.thumbs{ padding: 12px 0 0 10px; }
   font-size: 80%;
   background: transparent;
   border: 0px;
+  z-index: 999;
+  position: relative;
 }
 
 .searchSection input {
@@ -594,4 +598,8 @@ p.thumbs{ padding: 12px 0 0 10px; }
   font: 80% "Arial";
 }
 #contentActionMenus dl.actionMenu {
+}
+
+#ps_title .ps_tt_l {
+	letter-spacing: normal;
 }
