@@ -697,3 +697,31 @@ dl.portlet dt.portletHeader {
 div#parent-fieldname-formPrologue {
 	margin-left: 12px;
 }
+
+/* @group Survey Form */
+
+.portaltype-survey #content h2.questionTitle {
+	padding-bottom: 3px;
+	font: normal 1.4em "Trebuchet MS", Tahoma, Arial, Sans-serif;
+	color: #000;
+    line-height: 1.1;
+	letter-spacing: normal;	
+	text-transform: none;
+	border-bottom: 1px solid #ebebeb;	
+	margin-left: 5px;
+	padding-left: 5px;
+}
+
+.portaltype-survey #content p tt {
+	font: bold 1em/1.25em "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+} 
+.portaltype-survey #content input.context {
+	padding: 5px 10px;
+	margin: 5px;
+	background-color: #f5f5f5;
+}
+.portaltype-survey #content input.context:hover {
+	background-color: orange;
+	color: black;
+}
+/* @end */
