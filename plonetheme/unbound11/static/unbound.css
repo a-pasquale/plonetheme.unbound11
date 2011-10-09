@@ -46,7 +46,7 @@ border-bottom: none;
 h1, h2, h3 {
 	font: bold 1em/1.5em "Trebuchet MS", Tahoma, Arial, Sans-serif;
 	color: #111;
-	padding: 15px 10px 5px 10px;
+	padding: 5px 10px 5px 10px;
 	margin: 0;
 }
 h1 {
@@ -380,14 +380,14 @@ margin: ;
 
 #contents h2 {
 	padding-bottom: 3px;
-	font: normal 3.4em "Trebuchet MS", Tahoma, Arial, Sans-serif;
+	font: normal 2em "Trebuchet MS", Tahoma, Arial, Sans-serif;
 	color: #000;
     line-height: 1.1;
 	letter-spacing: -2px;	
 	text-transform: none;
-	border-bottom: 1px solid #ebebeb;	
-	margin-left: 5px;
-	padding-left: 5px;
+	border-bottom: none;	
+	margin-left: 0px;
+	padding-left: 0px;
 }
 #contents h2 a {
 	color: #000;
@@ -408,6 +408,9 @@ margin: ;
 	margin: 15px 0 5px 0;
 }
 
+div#content-core, #content .collage-row {
+	margin-left: 1em;
+}
 /* sidebar menu */
 ul.sidemenu {
 	text-align: left;
@@ -611,13 +614,7 @@ div#viewlet-below-content {
 	width: 80%;
 	margin-left: 50px;
 }
-fieldset,
-.editionComment {
-line-height:1.5em;
-margin:1em 0;
-padding:0 1em 1em;
-width:auto;
-}
+
 
 div#commenting.reply {
 
@@ -698,6 +695,34 @@ div#parent-fieldname-formPrologue {
 	margin-left: 12px;
 }
 
+.portletItemDetails {
+font-size: 85%;
+color: gray;
+padding-top:0em;
+line-height: 1.5em;
+margin-left: 2em;
+display: block;
+}
+#content h1.documentFirstHeading {
+margin-top: 0;
+padding-bottom: 0;
+border-bottom: 1px solid #eaeaea;
+margin-bottom: 10px;
+}
+
+.documentDescription {
+font-weight: bold;
+position: relative;
+display: block;
+margin-bottom: 10px;
+margin-left: 0;
+padding: 5px 0 0 0;
+}
+
+
+.documentDescription, div#parent-fieldname-text, div.documentByLine {
+	padding-left: 10px;
+}
 /* @group Survey Form */
 
 .template-survey_view #content h2.questionTitle {
@@ -733,3 +758,34 @@ div#parent-fieldname-formPrologue {
 }
 
 /* @end */
+
+
+div#commenting fieldset p {
+	font: normal .75em/1.3em "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+}
+
+div#commenting label {
+	font: bold .75em/1em "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+	margin: 0 0 4px;
+}
+
+div#commenting span {
+display: none;
+}
+
+div#commenting .submit-widget:hover {
+	background-color: gray;
+	color: white;
+}
+
+.reply fieldset {
+	border: 1px solid #eaeaea;
+	margin-bottom: 1em;
+}
+fieldset,
+.editionComment {
+line-height:1.5em;
+margin:1em 0;
+padding:0 1em 1em;
+width:auto;
+}
