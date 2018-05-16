@@ -98,6 +98,6 @@ Credits
 - Andrew Pasquale (andrew at elytra dot net).
 - Kyle Homstead (khomstead at gmail dot com).
 
-.. _`Unbound11 Theme`: https://github.com/a-pasquale/plonetheme.unbound11/
+.. _`Unbound11 Theme`: https://www.styleshout.com/templates/preview/Unbound11/index.html
 .. _`Andrew Pasquale`: https://twitter.com/apasquale
 .. _`plone.app.theming`: https://pypi.org/project/plone.app.theming/
