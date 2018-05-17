@@ -16,6 +16,16 @@
       provides="Products.GenericSetup.interfaces.EXTENSION"
       />
 
+  <genericsetup:registerProfile
+      name="uninstall"
+      title="plonetheme.unbound11: Uninstall profile for Plone 4 Diazo Theme"
+      directory="profiles/uninstall"
+      description="Uninstalls the plonetheme.unbound11 package"
+      provides="Products.GenericSetup.interfaces.EXTENSION"
+      />
+
+  <!-- -*- extra stuff goes here -*- -->
+
   <include package="plone.resource" file="meta.zcml"/>
   <plone:static directory="static" type="theme" name="plonetheme.unbound11" />
 

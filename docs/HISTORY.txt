@@ -4,4 +4,40 @@ Changelog
 1.0dev (unreleased)
 -------------------
 
-- Initial release
+- Added a simple Diazo theme package (Zip file) [macagua]
+
+- Added comments about Diazo directives into rules.xml file [macagua]
+
+- Clean source code xhtml files [macagua]
+
+- Added more strings classifiers items for this package [macagua]
+
+- Added GenericSetup Uninstall profile for this package [macagua]
+
+- Updated manifest file and added the preview file for diazo theme [macagua]
+
+- Added more improvements about README file [macagua]
+
+- text layout tweaks [Kyle Homstead]
+
+- more survey tweaks [Kyle Homstead]
+
+- Styled survey questions [Kyle Homstead]
+
+- Link logo to site root. [Kyle Homstead]
+
+- more portlet styling [Kyle Homstead]
+
+- css portlet tweaks [Kyle Homstead]
+
+- css tweaks [Kyle Homstead]
+
+- dropped breadcrumbs, css cleanup [Kyle Homstead]
+
+- minor padding [Kyle Homstead]
+
+- CSS tweaks to fit portal-columns into the main content area and the editbar. [Andrew Pasquale]
+
+- Initial commit of unbound11 theme. [Andrew Pasquale]
+
+- Initial release [Andrew Pasquale]

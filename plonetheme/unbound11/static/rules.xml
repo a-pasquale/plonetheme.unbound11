@@ -6,35 +6,51 @@
 
   <!-- Prevent theme usage in zmi-->
   <rules css:if-content="#visual-portal-wrapper">
-  <theme href="index.html" />
+    <theme href="index.html" />
   </rules>
+
   <notheme if-path="presentation_view"/>
   <notheme if-path="source_editor.htm"/>
   <notheme if-path="ploneimage.htm"/>
   <notheme if-path="anchor.htm"/>
   <notheme if-path="table.htm"/>
   <notheme if-path="attributes.htm"/>
+
   <drop theme='//*[@id="slogan"]' />
+
+  <!-- Head -->
   <replace content="/html/head/title" theme="/html/head/title" />
   <replace content="/html/head/base" theme="/html/head/base" />
   <replace content="/html/head/meta" theme="/html/head/meta" />
   <prepend content='/html/head' theme='/html/head' />
+
+  <!-- Theme customizer background and logo -->
   <copy attributes="href title" css:content='#portal-logo' css:theme='#logo a' />
+
+  <!-- Content -->
   <copy attributes="id class dir" css:theme="body" css:content="body"/>
+
+  <!-- portal quick search -->
   <replace css:content="#portal-searchbox" css:theme="#quick-search" />
+
+  <!-- portal global navigation -->
   <copy content='//*[@id="portal-globalnav"]' theme='//*[@id="nav"]' />
   <drop attributes="id" css:content="#portal-globalnav"/>
   <prepend content='//*[@id="portal-personaltools-wrapper"]' theme='//*[@id="container"]' />
   <prepend css:content="#viewlet-above-content" css:theme="#text"/>
   <before css:contentt="#edit-bar" css:theme="#text"/>
+
+  <!-- Columns -->
   <copy css:content-children="#portal-columns" css:theme="#contents"/>
   <after css:content="#viewlet-below-content" css:theme-children="#text"/>
   <copy content-children='//*[@id="portal-column-one"]' theme='//*[@id="sidebar"]' />
+
+  <!--Footer -->
   <copy content-children='//*[@id="portal-footer"]' theme='//*[@id="footer"]' />
   <append content='//*[@id="portal-colophon"]' theme='//*[@id="footer"]' />
+
   <drop css:theme=".col-two"/>
   <drop css:theme=".col-three"/>
-   <drop css:content="#portal-breadcrumbs"/>
+  <drop css:content="#portal-breadcrumbs"/>
   
-
 </rules>
